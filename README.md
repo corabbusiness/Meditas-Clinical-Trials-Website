@@ -27,3 +27,25 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## Hostinger deployment
+
+This project is a TanStack Start application and must run as a Node.js app on
+Hostinger. Build it locally with:
+
+```sh
+npm run build
+```
+
+Upload the generated `.output` directory and the project files required by
+Hostinger's Node.js application setup. Use `node .output/server/index.mjs` as
+the startup command, or run:
+
+```sh
+npm start
+```
+
+Set the application port using Hostinger's environment configuration if the
+panel requires it. This is not a WordPress theme: the compiled React output
+cannot be edited in WP Elementor. Elementor editing requires rebuilding these
+pages as WordPress templates or creating a WordPress integration/plugin.

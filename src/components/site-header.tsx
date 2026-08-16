@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/meditas-logo.jpg.asset.json";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -19,7 +18,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center" onClick={() => setOpen(false)}>
           <img
-            src={logo.url}
+            src="/assets/meditas-logo.jpg"
             alt="Meditas Clinical Trials"
             width={200}
             height={54}
