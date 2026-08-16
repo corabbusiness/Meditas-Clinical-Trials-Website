@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
           <img
-            src="/assets/meditas-logo.jpg"
+            src="/assets/meditas-logo.png"
             alt="Meditas Clinical Trials"
             width={200}
             height={54}

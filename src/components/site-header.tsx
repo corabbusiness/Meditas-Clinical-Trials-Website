@@ -18,7 +18,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex items-center" onClick={() => setOpen(false)}>
           <img
-            src="/assets/meditas-logo.jpg"
+            src="/assets/meditas-logo.png"
             alt="Meditas Clinical Trials"
             width={200}
             height={54}
