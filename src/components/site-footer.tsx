@@ -11,7 +11,7 @@ export function SiteFooter() {
             width={200}
             height={54}
             loading="lazy"
-            className="h-14 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
             A clinical research organization advancing tomorrow's therapies through rigorous

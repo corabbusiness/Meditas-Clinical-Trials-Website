@@ -22,7 +22,7 @@ export function SiteHeader() {
             alt="Meditas Clinical Trials"
             width={200}
             height={54}
-            className="h-14 w-auto object-contain"
+            className="h-20 w-auto object-contain"
           />
         </Link>
 
